@@ -10,3 +10,4 @@ resource "aws_instance" "db" {
 output "PrivateIP" {
     value = aws_instance.db.private_ip
 }
+// adding for dev
