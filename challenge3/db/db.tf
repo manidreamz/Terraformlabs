@@ -6,7 +6,7 @@ resource "aws_instance" "db" {
         Name = "DB Server"
     }
 }
-
+//add changes to etl
 output "PrivateIP" {
     value = aws_instance.db.private_ip
 }
